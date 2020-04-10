@@ -1,11 +1,12 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
+import SearchBox from './SearchBox';
 
-function App() {
+const App = ()  =>{
   return (
-    <div className="App">
-      <p> Student Discount Tracker </p>
+    <div className= "App">
+      <h1> Student Discount Tracker </h1>
+      <SearchBox />
     </div>
   );
 }
