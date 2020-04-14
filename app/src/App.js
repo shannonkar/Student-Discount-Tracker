@@ -9,7 +9,7 @@ import 'tachyons';
 const App = ()  =>{
   return (
     <div className= "App">
-      <h1> Student Discount Tracker </h1>
+      <h2> Student Discount Tracker </h2>
       <SearchBox />
       <CardArray discounts = { discounts }/>
     </div>
