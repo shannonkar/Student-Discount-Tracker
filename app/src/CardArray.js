@@ -1,7 +1,7 @@
 import React from 'react';
 import Card from './Card';
 
-const CardArray = ({ discounts }) => {
+const CardArray = ({ discounts, submitChange }) => {
 	const cardArray = discounts.map((user, i) => {
 		return (<Card  key = {i}
 		 		 id = {discounts[i].id} 
@@ -10,6 +10,7 @@ const CardArray = ({ discounts }) => {
 				discountType= {discounts[i].discountType}
 				discountCode = {discounts[i].discountCode} 
 				imgName = {discounts[i].imgName}
+				onClick = { submitChange }
 				/>
 				);
 	})

@@ -3,7 +3,7 @@ export const discounts = [
 	id: 1,
 	brand: "Adobe Creative Cloud",
 	percentageOff: "60%",
-	discountType: "Electonics",
+	discountType: "Electronics",
 	discountCode: "STU60",
 	imgName: "Adobe"
 },
